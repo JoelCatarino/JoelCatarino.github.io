@@ -1,8 +1,9 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Didact_Gothic } from 'next/font/google'
 
-const inter = Inter({
-  subsets: ['latin'],
+const didact = Didact_Gothic({
+  weight: '400',
+  preload: false,
 })
 
 // export const metadata = {
@@ -17,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={didact.className}>{children}</body>
     </html>
   )
 }
