@@ -4,8 +4,10 @@ import Hero from "./components/Hero";
 export default function Home() {
   return (
     <>
-      <Header />
-      <Hero />
+      <div className="m-4">
+        <Header />
+        <Hero />
+      </div>
     </>
   )
 }

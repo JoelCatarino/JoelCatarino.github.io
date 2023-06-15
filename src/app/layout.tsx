@@ -1,9 +1,16 @@
 import './globals.css'
-import { Didact_Gothic } from 'next/font/google'
+import { Didact_Gothic, Saira_Stencil_One } from 'next/font/google'
 
 const didact = Didact_Gothic({
   weight: '400',
   preload: false,
+  variable: '--font-didact'
+})
+
+const saira = Saira_Stencil_One({
+  weight: ['400'],
+  preload: false,
+  variable: '--font-saira'
 })
 
 // export const metadata = {
@@ -17,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={didact.className}>{children}</body>
+    <html lang="en" className={`${didact.variable} ${saira.variable}`}>
+      <body>{children}</body>
     </html>
   )
 }

@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 body {
-  background-color: #344e41;
+  max-width: 100vw;
+  background-color: #22223b;
   color: #e1e8ef;
+  //max-width: 1280px;
+  //height: 100vh;
+  display: flex;
+  //justify-content: center;
+  align-items: center;
+  //text-align: center;
+  flex-direction: column;
 }

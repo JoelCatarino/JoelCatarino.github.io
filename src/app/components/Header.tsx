@@ -1,8 +1,7 @@
 'use client'
-import Image from 'next/image'
-import profilePic from '../assets/eu.png'
 import { GithubLogo, LinkedinLogo, List, Phone } from '@phosphor-icons/react'
 import { useState } from 'react'
+
 
 export default function Header() {
 
@@ -14,10 +13,10 @@ export default function Header() {
 
   return (
     <>
-      <div className="p-4 mx-4 font-dida md:flex md:items-center md:justify-between">
-        <div className="flex justify-between flex-row">
+      <div className="md:flex md:items-center md:justify-between">
+        <div className="mr-5 flex justify-between flex-row">
           <div className="cursor-pointer flex">
-            <h1 className='text-2xl flex'>Joel Catarino</h1>
+            <h1 className='font-saira text-2xl flex'>Joel Catarino</h1>
           </div>
           <span onClick={ToggleMenu} className="relative flex text-3xl cursor-pointer mx-2 md:hidden">
             <List className='right-0 absolute' size={32} />
@@ -42,10 +41,10 @@ export default function Header() {
             )}
           </span>
         </div>
-        <div>
-          <ul className="md:flex gap-2 md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-            <li className="font-dida mx-4 my-6 md:my-0">
-              <a href="#" className="font-dida hover:text-light-pink duration-500">Home</a>
+        <div className='ml-30'>
+          <ul className="font-dida md:flex gap-2 md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li className="mx-4 my-6 md:my-0">
+              <a href="#" className="hover:text-light-pink duration-500">Home</a>
             </li>
             <li className="mx-4 my-6 md:my-0">
               <a href="#" className="hover:text-light-pink duration-500">About</a>
