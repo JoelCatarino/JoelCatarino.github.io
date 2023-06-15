@@ -16,7 +16,7 @@ export default function Header() {
       <div className="md:flex md:items-center md:justify-between">
         <div className="mr-5 flex justify-between flex-row">
           <div className="cursor-pointer flex">
-            <h1 className='font-saira text-2xl flex'>Joel Catarino</h1>
+            <h1 className='font-saira text-2xl flex text-purple'>Joel Catarino</h1>
           </div>
           <span onClick={ToggleMenu} className="relative flex text-3xl cursor-pointer mx-2 md:hidden">
             <List className='right-0 absolute' size={32} />
