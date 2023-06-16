@@ -18,14 +18,13 @@ module.exports = {
       },
     },
     colors: {
-      purple: "#CDB4DB",
-      "light-pink": "#FFC8DD",
-      pink: "#FFAFCC",
+      red: "#CB7D71",
       "light-blue": "#BDE0FE",
       blue: "#A2D2FF",
       white: "#e1e8ef",
       black: "#22223b",
-      green: "#344e41",
+      green: "#98C148",
+      "dark-green": "#399C42"
     },
   },
   plugins: [],

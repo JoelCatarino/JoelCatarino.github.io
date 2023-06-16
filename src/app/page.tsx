@@ -6,7 +6,8 @@ import Projects from "./components/Projects";
 export default function Home() {
   return (
     <>
-      <div className="m-4">
+    {/* tirei todas as max-w-6xl de tds os components */}
+      <div className="m-4 max-w-6xl">
         <Header />
         <Hero />
         <About />
