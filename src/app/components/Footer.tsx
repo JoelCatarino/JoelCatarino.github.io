@@ -27,7 +27,7 @@ export default function Footer() {
             </li>
           </ul>
           <div className="mt-6 flex flex-row ">
-            <a href="github.com/JoelCatarino">
+            <a href="http://www.github.com/JoelCatarino">
               <GithubLogo
                 size={32}
                 className="mr-8 text-white hover:text-light-blue"

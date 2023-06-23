@@ -88,10 +88,10 @@ export default function Header() {
               </a>
             </li>
             <div className="flex gap-4 ">
-              <a href="github.com/JoelCatarino">
+              <a href="http://www.github.com/JoelCatarino">
                 <GithubLogo size={26} className="hover:text-light-blue" />
               </a>
-              <a href="linkedin.com/in/joel-catarino-977a8a19b/">
+              <a href="http://www.linkedin.com/in/joel-catarino-977a8a19b/">
                 <LinkedinLogo size={26} className="hover:text-light-blue" />
               </a>
             </div>
