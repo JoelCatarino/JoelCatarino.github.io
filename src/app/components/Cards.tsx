@@ -5,8 +5,9 @@ import waiter from '../assets/waiter.png'
 export default function Cards() {
   return (
     <>
-      <div className="gallery flex md:flex-row sm:flex-col sm:items-center sm:m-6 justify-around">
-        <div className="max-w-sm overflow-hidden rounded shadow-2xl shadow-blue ">
+     {/* flex justify-around sm:m-6 sm:flex-col sm:items-center md:flex-row */}
+      <div className="gallery flex flex-col items-center m-10 md:flex-row md:m-auto md:justify-around">
+        <div className="max-w-sm rounded shadow-2xl shadow-blue ">
           <div className="bg-transpa">
             <a href="https://github.com/JoelCatarino/dev.finance.react.ts">
               <Image className="w-full" src={devfinance} alt="dev" />
@@ -31,15 +32,15 @@ export default function Cards() {
             </a>
           </div>
         </div>
-        <div className="max-w-sm sm:mt-10 md:mt-auto overflow-hidden rounded shadow-2xl shadow-red ">
+        <div className="max-w-sm rounded mt-10 md:m-0 shadow-2xl shadow-red">
           <div className="bg-transpa">
             <a href="https://github.com/JoelCatarino/waiter-app">
               <Image className="w-full" src={waiter} alt="dev" />
               <div className="px-6 py-4">
                 <div className="mb-2 text-xl font-bold">Waiter App</div>
                 <p className="text-gray-700 text-base">
-                  This app is a system that facilitates the waiter's job. It
-                  has the DESKTOP that connect to MOBILE and DATABASE
+                  This app is a system that facilitates the waiter's job. It has
+                  the DESKTOP that connect to MOBILE and DATABASE
                 </p>
               </div>
               <div className="px-6 pb-2 pt-4">

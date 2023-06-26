@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className="md:container md:mx-auto mt-32 flex max-w-6xl flex-row">
+      <div className="mt-32 flex max-w-6xl flex-row md:container md:mx-auto">
         <div>
           <h2 className="mb-4 text-4xl text-light-blue">A little about me</h2>
           <p className="mb-4 text-lg">
@@ -14,7 +14,8 @@ export default function About() {
           <p className="mb-4 text-lg">
             In 2022 I had to take a short break from studying and enter the job
             market not related to technology... I worked with Administration for
-            a year. In 2023 I started working in a hotel as Room Service and
+            a year. In January 2023 I entered the faculty of systems analysis
+            and development. I started working in a hotel as Room Service and
             continued studying Front end.
           </p>
           <p className="mb-4 text-lg">
