@@ -15,7 +15,7 @@ export default function About() {
             In 2022 I had to take a short break from studying and enter the job
             market not related to technology... I worked with Administration for
             a year. In January 2023 I entered the faculty of systems analysis
-            and development. I started working in a hotel as Room Service and
+            and development. I worked as Room Service in a hotel and
             continued studying Front end.
           </p>
           <p className="mb-4 text-lg">
@@ -25,7 +25,7 @@ export default function About() {
             sides of the coin with an understanding of the front and back.
           </p>
           <p className="mb-4 text-lg">
-            Working at the Hotel as Room Service I am looking for an opportunity
+            I am looking for an opportunity
             to show my work and migrate to the world of technology.
           </p>
         </div>
